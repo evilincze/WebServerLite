@@ -1,5 +1,4 @@
 #include "GetRequest.h"
-#include "HTTPResponseTemplate.h"
 #include "MakeHeader.h"
 #include "Routing.h"
 
