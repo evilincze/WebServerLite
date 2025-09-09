@@ -1,0 +1,4 @@
+#Simple example of routing
+#Syntax: [path in HTTP request] [space] [target file path]
+/ /index.html
+/about /about.html

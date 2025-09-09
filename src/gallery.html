@@ -1,0 +1,72 @@
+<!-- FILE: gallery.html -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Acme MiniServer — Gallery</title>
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+<div class="container">
+<nav class="nav">
+<div class="brand">
+<div class="logo">AS</div>
+<div>
+<div style="font-weight:700">Acme MiniServer</div>
+<div style="font-size:12px;color:var(--muted)">Three-page test site</div>
+</div>
+</div>
+<div class="links">
+<a class="a" href="/index.html">Home</a>
+<a class="a" href="/about.html">About</a>
+<a class="a" href="/gallery.html">Gallery</a>
+</div>
+</nav>
+
+
+<main class="hero">
+<h1 class="title">Gallery — Inline SVG placeholders</h1>
+<p class="lead">These are embedded SVG placeholders so you can test image serving without separate files.</p>
+
+
+<div class="grid">
+<div class="figure">
+<svg width="100%" height="140" viewBox="0 0 400 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="placeholder">
+<defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#6ee7b7"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs>
+<rect rx="10" width="100%" height="100%" fill="url(#g1)" />
+<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#052331">Image 1</text>
+</svg>
+<h4 style="margin:8px 0 6px">Mountains at Dawn</h4>
+<p class="muted">JPEG test — pretend this was /images/mountains.jpg</p>
+</div>
+
+
+<div class="figure">
+<svg width="100%" height="140" viewBox="0 0 400 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="placeholder2">
+<defs><linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#f97316"/><stop offset="1" stop-color="#ef4444"/></linearGradient></defs>
+<rect rx="10" width="100%" height="100%" fill="url(#g2)" />
+<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#2b0500">Image 2</text>
+</svg>
+<h4 style="margin:8px 0 6px">City Lights</h4>
+<p class="muted">PNG test — pretend this was /images/city.png</p>
+</div>
+
+
+<div class="figure">
+<svg width="100%" height="140" viewBox="0 0 400 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="placeholder3">
+<defs><linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#60a5fa"/></linearGradient></defs>
+<rect rx="10" width="100%" height="100%" fill="url(#g3)" />
+<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#061026">Image 3</text>
+</svg>
+<h4 style="margin:8px 0 6px">Forest Trail</h4>
+<p class="muted">GIF test — pretend this was /images/trail.gif</p>
+</div>
+</div>
+
+
+<p class="footer">Back to <a class="a" href="/index.html">Home</a></p>
+</main>
+</div>
+</body>
+</html>

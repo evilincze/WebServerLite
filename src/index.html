@@ -1,0 +1,43 @@
+<!doctype html>
+<header class="hero">
+     <link rel="stylesheet" href="/assets/styles.css">
+<h1 class="title">Fast &amp; simple HTTP server test</h1>
+<p class="lead">This small site helps you verify serving HTML, images and assets (CSS). Click around to test content-type detection, Content-Length accuracy and binary transfers.</p>
+<div class="row">
+<div class="card">
+<h3>Quick test</h3>
+<p class="muted">Try requesting <code>/index.html</code>, <code>/about.html</code> and <code>/gallery.html</code> from your server. Ensure <code>Content-Type</code> and <code>Content-Length</code> are correct, and that images load.</p>
+<p><a class="btn" href="/gallery.html">Open Gallery</a></p>
+</div>
+<div class="card">
+<h3>Debug tips</h3>
+<ul style="margin:0;padding-left:18px;color:var(--muted)">
+<li>Stat files for length before sending</li>
+<li>Use binary-safe reads and writes</li>
+<li>Close socket when using <code>Connection: close</code></li>
+</ul>
+</div>
+</div>
+
+
+<div class="grid">
+<div class="figure">
+<h4 style="margin-top:0">Static HTML</h4>
+<p class="muted">Served as <code>text/html; charset=UTF-8</code></p>
+</div>
+<div class="figure">
+<h4 style="margin-top:0">Images</h4>
+<p class="muted">Binary transfers like <code>image/jpeg</code> and <code>image/png</code></p>
+</div>
+<div class="figure">
+<h4 style="margin-top:0">CSS</h4>
+<p class="muted">Shared asset at <code>/assets/styles.css</code></p>
+</div>
+</div>
+
+
+<p class="footer">Built for testing — not yet production. Enjoy your millionaire journey 🚀</p>
+</header>
+</div>
+</body>
+</html>
